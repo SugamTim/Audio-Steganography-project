@@ -423,14 +423,7 @@ class MainWindow(QMainWindow):
         lay.addLayout(cards)
         lay.addSpacing(40)
 
-        # How-it-works blurb
-        hint = QLabel(
-            "Record your voice  →  embed a secret text  →  send the audio over Wi-Fi\n"
-            "The recipient plays the audio (sounds normal)  →  extracts the hidden message"
-        )
-        hint.setObjectName("HintLabel")
-        hint.setAlignment(Qt.AlignCenter)
-        lay.addWidget(hint)
+
 
         return w
 
