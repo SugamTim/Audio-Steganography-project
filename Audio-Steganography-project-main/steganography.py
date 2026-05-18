@@ -295,5 +295,7 @@ class FFTSteganography:
             if self.terminator in current_text:
                 return current_text.split(self.terminator)[0]
 
-        return "Terminator not found. Extraction may be incomplete."
+        return "Terminator not found. Extraction may be incomplete." 
+    
+    """error"""
 
